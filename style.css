@@ -328,6 +328,9 @@ hr{
   .serviceDesc{
    font-size: 20px;
 }
+.singleService:hover .serviceDesc{
+  bottom: 25% !important;
+}
 }
 #testimonials{
   width: 100%;
