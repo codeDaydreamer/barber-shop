@@ -105,12 +105,28 @@ nav ul li a{
     font-size: 45px;
   }
   .banner-text p{
-    font-size: 20px;
+    font-size: 14px;
     font-style: italic;
   }
   .banner-btns a{
     display: block;
     margin: 20px auto;
+  }
+  #menuBtn{
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 30px;
+  }
+  #menuBtn img{
+    width: 25px;
+    background-color:#e5c9b3 ;
+  }
+  .logo{
+    width: 90px;
+  }
+  nav ul li a{
+    font-size: 15px;
   }
 }
 
@@ -198,7 +214,7 @@ nav ul li a{
 }
 @media screen and (max-width:770px){
   .titleText h1{
-    font-size: 35px;
+    font-size: 15px;
   }
   .features{
     flex-basis: 100%;
@@ -208,6 +224,30 @@ nav ul li a{
   }
   .featuresImg img{
     width: 100%;
+  }
+  .titleText p{
+    font-size: 15px;
+  }
+  .titleText h1{
+    font-size: 25px;
+  }
+  .titleText{
+    padding-bottom: 30px;
+  }
+  .featuresText p{
+    font-size: 13px;
+  
+   }
+   .features h1{
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+  .featuresIcon .fa{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+   
   }
 }
 #services{
@@ -255,7 +295,7 @@ nav ul li a{
   left: 50%;
   transform: translateX(-50%);
   color: #e5c9b3;
-  font-size: 35px;
+  font-size: 45px;
   opacity: 0;
   transition: 1s;
 }
@@ -276,17 +316,18 @@ hr{
 }
 @media screen and (max-width:770px){
   .singleService{
-    flex-basis: 100%;
-    margin-bottom: 30px;
+    flex-basis: 45%;
+    margin-bottom: 20px;
   }
   .serviceDesc p{
     font-size: 5px;
   }
   .serviceDesc h3{
-    font-size: 25p
+    font-size: 15p
   }
-
-
+  .serviceDesc{
+   font-size: 20px;
+}
 }
 #testimonials{
   width: 100%;
@@ -336,7 +377,22 @@ hr{
 }
 @media screen and (max-width:770px){
   .testimonialColumn{
-    flex-basis: 100%;
+    flex-basis: 42%;
+  }
+  .testimonialColumn p{
+    font-size: 10px;
+  }
+  .user{
+    margin: 10px 0;
+    font-size: 10px;
+  }
+  .userInfo .fa{
+    font-size: 10px;
+  }
+  .user img{
+    width: 35px;
+    margin-right:10px ;
+    border-radius: 10px;
   }
 }
 
@@ -421,6 +477,22 @@ hr{
   .footerleft,.footerright{
     flex-basis: 100%;
     font-size: 15px;
+  }
+  .socialLinks p{
+    font-size: 7px;
+   
+  }
+  .footerrow h1{
+    margin: 6px 6px;
+    color:#e8e4e3;
+    font-size: 13px;
+     
+  }
+  .footerrow p{
+    line-height: 25px;
+    color:#e8e4e3 ;
+    margin: 7px 7px;
+    font-size: 10px;
   }
 }
 
